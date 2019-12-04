@@ -17,9 +17,11 @@ namespace People
 
             MainPage = new People.MainPage()
             {
-                Text = dbPath,
+
             };
         }
+
+        public static PersonRepo { get; set; }
 
         protected override void OnStart()
         {
